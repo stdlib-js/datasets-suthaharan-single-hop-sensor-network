@@ -20,7 +20,7 @@ limitations under the License.
 
 # Single-Hop Sensor Network
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Labeled wireless sensor network data set collected from a simple single-hop wireless sensor network deployment using TelosB motes.
 
@@ -205,7 +205,7 @@ The data files (databases) are licensed under an [Open Data Commons Attribution 
 
 ## See Also
 
--   [`@stdlib/datasets/suthaharan-multi-hop-sensor-network`][@stdlib/datasets/suthaharan-multi-hop-sensor-network]: labeled wireless sensor network data set collected from a multi-hop wireless sensor network deployment using TelosB motes.
+-   <span class="package-name">[`@stdlib/datasets/suthaharan-multi-hop-sensor-network`][@stdlib/datasets/suthaharan-multi-hop-sensor-network]</span><span class="delimiter">: </span><span class="description">labeled wireless sensor network data set collected from a multi-hop wireless sensor network deployment using TelosB motes.</span>
 
 </section>
 
@@ -251,8 +251,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/datasets-suthaharan-single-hop-sensor-network/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/datasets-suthaharan-single-hop-sensor-network?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/datasets-suthaharan-single-hop-sensor-network.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/datasets-suthaharan-single-hop-sensor-network/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
