@@ -1,0 +1,38 @@
+{
+  "name": "@stdlib/datasets-suthaharan-single-hop-sensor-network",
+  "version": "0.0.0",
+  "description": "Labeled wireless sensor network data set collected from a simple single-hop wireless sensor network deployment using TelosB motes.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/datasets-suthaharan-single-hop-sensor-network.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "datasets",
+    "dataset",
+    "data",
+    "sample",
+    "sensor",
+    "network",
+    "machine learning",
+    "ml",
+    "labeled",
+    "mote",
+    "motes",
+    "outliers",
+    "outlier",
+    "statistics",
+    "stats"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
