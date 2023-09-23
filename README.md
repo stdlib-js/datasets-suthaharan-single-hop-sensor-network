@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+dataset = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-suthaharan-single-hop-sensor-network/tags). For example,
+
+```javascript
 dataset = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@v0.1.0-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var dataset = require( 'path/to/vendor/umd/datasets-suthaharan-single-hop-sensor
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -119,7 +124,7 @@ var data = dataset();
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-grubbs@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
