@@ -35,19 +35,33 @@ limitations under the License.
 
 > Labeled wireless sensor network data set collected from a simple single-hop wireless sensor network deployment using TelosB motes.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/datasets-suthaharan-single-hop-sensor-network
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+-   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-suthaharan-single-hop-sensor-network/tags). For example,
-
-```javascript
-import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@v0.2.1-esm/index.mjs';
+var dataset = require( '@stdlib/datasets-suthaharan-single-hop-sensor-network' );
 ```
 
 #### dataset()
@@ -95,14 +109,9 @@ var data = dataset();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import incrgrubbs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-grubbs@esm/index.mjs';
-import data from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@esm/index.mjs';
+```javascript
+var incrgrubbs = require( '@stdlib/stats-incr-grubbs' );
+var data = require( '@stdlib/datasets-suthaharan-single-hop-sensor-network' );
 
 var acc;
 var d;
@@ -132,17 +141,65 @@ for ( j = 0; j < 4; j++ ) {
     console.log( '' );
     console.log( acc().print() );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
 
 <!-- /.examples -->
 
+* * *
 
+<section class="cli">
+
+## CLI
+
+<section class="installation">
+
+## Installation
+
+To use as a general utility, install the CLI package globally
+
+```bash
+npm install -g @stdlib/datasets-suthaharan-single-hop-sensor-network-cli
+```
+
+</section>
+
+<!-- CLI usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```text
+Usage: suthaharan-single-hop-sensor-network [options]
+
+Options:
+
+  -h,    --help                Print this message.
+  -V,    --version             Print the package version.
+         --format fmt          Output format: 'csv' or 'ndjson'.
+```
+
+</section>
+
+<!-- /.usage -->
+
+<section class="examples">
+
+### Examples
+
+```bash
+$ suthaharan-single-hop-sensor-network
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.cli -->
 
 * * *
 
@@ -187,7 +244,7 @@ The data files (databases) are licensed under an [Open Data Commons Attribution 
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -212,8 +269,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-suthaharan-single-hop-sensor-network.svg
 [npm-url]: https://npmjs.org/package/@stdlib/datasets-suthaharan-single-hop-sensor-network
 
-[test-image]: https://github.com/stdlib-js/datasets-suthaharan-single-hop-sensor-network/actions/workflows/test.yml/badge.svg?branch=v0.2.1
-[test-url]: https://github.com/stdlib-js/datasets-suthaharan-single-hop-sensor-network/actions/workflows/test.yml?query=branch:v0.2.1
+[test-image]: https://github.com/stdlib-js/datasets-suthaharan-single-hop-sensor-network/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/datasets-suthaharan-single-hop-sensor-network/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/datasets-suthaharan-single-hop-sensor-network/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/datasets-suthaharan-single-hop-sensor-network?branch=main
@@ -257,7 +314,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/datasets/suthaharan-multi-hop-sensor-network]: https://github.com/stdlib-js/datasets-suthaharan-multi-hop-sensor-network/tree/esm
+[@stdlib/datasets/suthaharan-multi-hop-sensor-network]: https://github.com/stdlib-js/datasets-suthaharan-multi-hop-sensor-network
 
 <!-- </related-links> -->
 
