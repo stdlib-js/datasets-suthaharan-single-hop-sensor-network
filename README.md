@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-suthaharan-single-hop-sensor-network/tags). For example,
+
+```javascript
 import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@v0.2.3-esm/index.mjs';
 ```
 
@@ -97,7 +102,7 @@ var data = dataset();
 <script type="module">
 
 import incrgrubbs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-grubbs@esm/index.mjs';
-import data from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@v0.2.3-esm/index.mjs';
+import data from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@esm/index.mjs';
 
 var acc;
 var d;
