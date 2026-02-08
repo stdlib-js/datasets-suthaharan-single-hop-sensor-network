@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-suthaharan-single-hop-sensor-network/tags). For example,
+
+```javascript
 import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@v0.2.3-deno/mod.js';
 ```
 
@@ -92,7 +97,7 @@ var data = dataset();
 
 ```javascript
 import incrgrubbs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-grubbs@deno/mod.js';
-import data from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@v0.2.3-deno/mod.js';
+import data from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@deno/mod.js';
 
 var acc;
 var d;
